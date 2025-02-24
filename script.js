@@ -4,33 +4,33 @@ let currentContent = 'ip';
 // IP数据
 const ipData = [
     //游戏IP
-    {name: '原神',image: 'pic/ys.png',score: 9.5,type: '游戏' },
-    {name: '恋与深空',image: 'pic/share.png',score: 8.8,type: '游戏',},
-    {name: '星穹铁道',image: 'pic/星铁.png',score: 8.2,type: '游戏',},
-    {name: '王者荣耀',image: 'pic/王者.png',score: 8.2,type: '游戏',},
-    {name: '蛋仔派对',image: 'pic/蛋仔派对.png',score: 8.2,type: '游戏',},
-    {name: '明日方舟',image: 'pic/明日方舟.png',score: 8.2,type: '游戏',},
-    {name: '无限暖暖',image: 'pic/无限暖暖.png',score: 8.2,type: '游戏',},
-    {name: '世界之外',image: 'pic/世界之外.png',score: 8.2,type: '游戏',},
-    {name: '光遇',image: 'pic/光遇.png',score: 8.2,type: '游戏',},
-    {name: '三角洲行动',image: 'pic/三角洲.png',score: 8.2,type: '游戏',},
-    {name: '金铲铲之战',image: 'pic/金铲铲.png',score: 8.2,type: '游戏',},
-    {name: '第五人格',image: 'pic/第五人格.png',score: 8.2,type: '游戏',},
-    {name: '永劫无间',image: 'pic/永杰。png.webp',score: 8.2,type: '游戏',},
-    {name: '绝区零',image: 'pic/绝区零.png',score: 8.2,type: '游戏',},
+    {name: '原神',image: '/DN3/pic/ys.png',score: 9.5,type: '游戏' },
+    {name: '恋与深空',image: '/DN3/pic/share.png',score: 8.8,type: '游戏',},
+    {name: '星穹铁道',image: '/DN3/pic/星铁.png',score: 8.2,type: '游戏',},
+    {name: '王者荣耀',image: '/DN3/pic/王者.png',score: 8.2,type: '游戏',},
+    {name: '蛋仔派对',image: '/DN3/pic/蛋仔派对.png',score: 8.2,type: '游戏',},
+    {name: '明日方舟',image: '/DN3/pic/明日方舟.png',score: 8.2,type: '游戏',},
+    {name: '无限暖暖',image: '/DN3/pic/无限暖暖.png',score: 8.2,type: '游戏',},
+    {name: '世界之外',image: '/DN3/pic/世界之外.png',score: 8.2,type: '游戏',},
+    {name: '光遇',image: '/DN3/pic/光遇.png',score: 8.2,type: '游戏',},
+    {name: '三角洲行动',image: '/DN3/pic/三角洲.png',score: 8.2,type: '游戏',},
+    {name: '金铲铲之战',image: '/DN3/pic/金铲铲.png',score: 8.2,type: '游戏',},
+    {name: '第五人格',image: '/DN3/pic/第五人格.png',score: 8.2,type: '游戏',},
+    {name: '永劫无间',image: '/DN3/pic/永杰。png.webp',score: 8.2,type: '游戏',},
+    {name: '绝区零',image: '/DN3/pic/绝区零.png',score: 8.2,type: '游戏',},
 
 
 
 
     //动漫IP
-    {name: '名侦探柯南',image: 'pic/nan.png',score: 9.8,type: '动漫',},
-    {name: '间谍过家家',image: 'pic/间谍过家家.png',score: 9.8,type: '动漫',},
-    {name: '海绵宝宝',image: 'pic/海绵宝宝.png',score: 9.8,type: '动漫',},
-    {name: '葬送的芙莉莲',image: 'pic/芙.png',score: 9.8,type: '动漫',},
-    {name: '蜡笔小新',image: 'pic/蜡笔小新.png',score: 9.8,type: '动漫',},
-    {name: '轻音少女',image: 'pic/轻音少女.png',score: 9.8,type: '动漫',},
-    {name: '小马宝莉',image: 'pic/小马宝莉.png',score: 9.8,type: '动漫',},
-    {name: 'JOJO的奇妙冒险',image: 'pic/JOJO.png',score: 9.8,type: '动漫',},
+    {name: '名侦探柯南',image: '/DN3/pic/nan.png',score: 9.8,type: '动漫',},
+    {name: '间谍过家家',image: '/DN3/pic/间谍过家家.png',score: 9.8,type: '动漫',},
+    {name: '海绵宝宝',image: '/DN3/pic/海绵宝宝.png',score: 9.8,type: '动漫',},
+    {name: '葬送的芙莉莲',image: '/DN3/pic/芙.png',score: 9.8,type: '动漫',},
+    {name: '蜡笔小新',image: '/DN3/pic/蜡笔小新.png',score: 9.8,type: '动漫',},
+    {name: '轻音少女',image: '/DN3/pic/轻音少女.png',score: 9.8,type: '动漫',},
+    {name: '小马宝莉',image: '/DN3/pic/小马宝莉.png',score: 9.8,type: '动漫',},
+    {name: 'JOJO的奇妙冒险',image: '/DN3/pic/JOJO.png',score: 9.8,type: '动漫',},
    
 ];
 
@@ -91,18 +91,18 @@ function renderIPCards() {
 
 // 合作案例数据
 const caseData = [
-    {title: '原神×肯德基 Ⅰ',subtitle: '跨界营销合作案例',image: 'case-pic/原神kfc1.png', articleUrl: 'articles/case1.html'},
-    {title: '原神×肯德基 Ⅱ',subtitle: '联名套餐推广活动',image: 'case-pic/原神kfc2.png',articleUrl: 'articles/case2.html'},
-    {title: '恋与深空×肯德基',subtitle: '主题店铺合作',image: 'pic/kfc.png',articleUrl: 'articles/case3.html'},
-    {title: '原神×娇兰',subtitle: '主题店铺合作',image: 'case-pic/原神娇兰.png'},
-    {title: '橘朵×未定事件簿',subtitle: '主题店铺合作',image: 'case-pic/橘朵未定.png'},
-    {title: '中信银行×闪耀暖暖',subtitle: '主题店铺合作',image: 'case-pic/中信暖暖.png'},
-    {title: '欧莱雅×奥特曼',subtitle: '主题店铺合作',image: 'case-pic/欧莱雅奥特曼.png'},
-    {title: '炫迈×星穹铁道',subtitle: '主题店铺合作',image: 'case-pic/炫迈星铁.png'},
-    {title: '随变×原神',subtitle: '主题店铺合作',image: 'case-pic/随变原神.png'},
-    {title: '和平精英×欧莱雅',subtitle: '主题店铺合作',image: 'case-pic/和平精英×欧莱雅.png'},
-    {title: '蒙牛真果粒×王者荣耀',subtitle: '主题店铺合作',image: 'case-pic/蒙牛王者.png'},
-    {title: '中信银行×星穹铁道',subtitle: '主题店铺合作',image: 'case-pic/中信星铁.png'},
+    {title: '原神×肯德基 Ⅰ',subtitle: '跨界营销合作案例',image: '/DN3/case-pic/原神kfc1.png', articleUrl: '/DN3/articles/case1.html'},
+    {title: '原神×肯德基 Ⅱ',subtitle: '联名套餐推广活动',image: '/DN3/case-pic/原神kfc2.png',articleUrl: '/DN3/articles/case2.html'},
+    {title: '恋与深空×肯德基',subtitle: '主题店铺合作',image: '/DN3/pic/kfc.png',articleUrl: '/DN3/articles/case3.html'},
+    {title: '原神×娇兰',subtitle: '主题店铺合作',image: '/DN3/case-pic/原神娇兰.png',articleUrl: '/DN3/articles/case3.html'},
+    {title: '橘朵×未定事件簿',subtitle: '主题店铺合作',image: '/DN3/case-pic/橘朵未定.png',articleUrl: '/DN3/articles/case3.html'},
+    {title: '中信银行×闪耀暖暖',subtitle: '主题店铺合作',image: '/DN3/3case-pic/中信暖暖.png',articleUrl: '/DN3/articles/case3.html'},
+    {title: '欧莱雅×奥特曼',subtitle: '主题店铺合作',image: '/DN3/case-pic/欧莱雅奥特曼.png',articleUrl: '/DN3/articles/case3.html'},
+    {title: '炫迈×星穹铁道',subtitle: '主题店铺合作',image: '/DN3/case-pic/炫迈星铁.png',articleUrl: '/DN3/articles/case3.html'},
+    {title: '随变×原神',subtitle: '主题店铺合作',image: '/DN3/case-pic/随变原神.png',articleUrl: '/DN3/articles/case3.html'},
+    {title: '和平精英×欧莱雅',subtitle: '主题店铺合作',image: '/DN3/3case-pic/和平精英×欧莱雅.png',articleUrl: '/DN3/articles/case3.html'},
+    {title: '蒙牛真果粒×王者荣耀',subtitle: '主题店铺合作',image: '/DN3/case-pic/蒙牛王者.png',articleUrl: '/DN3/articles/case3.html'},
+    {title: '中信银行×星穹铁道',subtitle: '主题店铺合作',image: '/DN3/case-pic/中信星铁.png',articleUrl: '/DN3/articles/case3.html'},
 
 ];
 
